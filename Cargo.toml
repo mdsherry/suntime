@@ -1,0 +1,13 @@
+[package]
+name = "suntime"
+version = "0.1.0"
+authors = ["Mark Sherry <marks@sortable.com>"]
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.19"
+clap = { version = "4.0.29", features = ["derive"] }
+csv = "1.1.6"
+flate2 = "1.0.25"
+serde = { version = "1.0.149", features = ["derive"] }
+thiserror = "1.0.30"
